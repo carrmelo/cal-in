@@ -17,7 +17,6 @@ module Api::V1
     # POST /events
     def create
       @event = Event.new(event_params)
-
       if @event.save
         render json: @event, status: :created, location: @event
       else
