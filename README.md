@@ -1,24 +1,26 @@
-# README
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Para iniciar la app: ###
 
-Things you may want to cover:
+__mysql__
+- en /config/database.yml
+  cambiar username y password a su propia configuración de mysql DB
+- `$ mysqld`
 
-* Ruby version
+__react-app__(`cal-in/client`)
 
-* System dependencies
+- `$ npm i`
 
-* Configuration
+__ruby api__(`cal-in`)
 
-* Database creation
+- Versión de Ruby 2.4.2
+- `$ gem install foreman`
+- `$ bundle install`
+- `$ foreman start`
 
-* Database initialization
 
-* How to run the test suite
+## Retrospectiva del BACKEND ##
 
-* Services (job queues, cache servers, search engines, etc.)
+	El Backend fue creado con un modelo para usuario y otro para eventos, la idea era implementar autenticación para poder tener varios usuarios.
 
-* Deployment instructions
-
-* ...
+  Incluyo la versión de Koa-mongoose inicial en otra carpeta a manera de referencia.
