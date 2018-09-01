@@ -1,5 +1,6 @@
 module Api::V1
   class EventsController < ApplicationController
+    # match "/api/v1", to: "api/application#events", via: "get"
     before_action :set_event, only: [:show, :update, :destroy]
 
     # GET /events
