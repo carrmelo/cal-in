@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Ejercicio realizado con react-big-calendar para conocer MobX.
+
 ### Para iniciar la app: ###
 
 __mysql__
@@ -17,10 +19,3 @@ __ruby api__(`cal-in`)
 - `$ gem install foreman`
 - `$ bundle install`
 - `$ foreman start`
-
-
-## Retrospectiva del BACKEND ##
-
-	El Backend fue creado con un modelo para usuario y otro para eventos, la idea era implementar autenticación para poder tener varios usuarios.
-
-  Incluyo la versión de Koa-mongoose inicial en otra carpeta a manera de referencia.
